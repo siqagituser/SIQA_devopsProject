@@ -36,6 +36,10 @@ services:
     version: 10.3.0.0.32
     wpmServer: https://packages.webmethods.io
     wpmRegistry: softwareag
+- serviceName: Basics_1:ComplexFS
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: Basics_1:Basic_Flow
   packages:
   - name: SIQA_OriginTest_OnPremAssets
@@ -56,3 +60,35 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2015
+- serviceName: Basics_1:mapservice
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:TryCatch
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Map_1:TestFlow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: REST_1_1.CurrentDateAndTime:_get
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
+- serviceName: SOAP_1_1:showDateAndTime
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
