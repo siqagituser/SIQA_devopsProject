@@ -25,6 +25,11 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: siqagituser
   gitBranch: main
+- name: PackY
+  gitServerName: siqagituser
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: siqagituser
+  gitBranch: main
 services:
 - serviceName: project.siqa_devops.integrations:SIQAAdapterFlow
   packages:
