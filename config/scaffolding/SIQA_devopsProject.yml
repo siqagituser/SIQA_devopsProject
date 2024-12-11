@@ -35,7 +35,7 @@ packages:
   gitUsername: siqagituser
   gitBranch: main
 services:
-- serviceName: project.siqa_devops.integrations:testFS
+- serviceName: project.siqa_devops.integrations:TESTflow
   packages:
   - name: SIQA_devopsProject
     version: "1.0"
