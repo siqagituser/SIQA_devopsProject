@@ -7,9 +7,6 @@ packages:
   gitUrl: https://github.com/siqagituser
   gitUsername: siqagituser
   gitBranch: main
-- name: WmJDBCAdapter
-  wpmServer: https://packages.webmethods.io
-  wpmRegistry: softwareag
 - name: SIQA_OriginTest_OnPremAssets
   version: "1.0"
   gitServerName: siqagituser
@@ -22,6 +19,9 @@ packages:
   gitUrl: https://github.webmethods.io/kvv
   gitUsername: kvv
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: softwareag
 services:
 - serviceName: project.siqa_devops.integrations:TESTflow
   packages:
