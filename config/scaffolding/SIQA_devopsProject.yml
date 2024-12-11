@@ -22,12 +22,6 @@ packages:
   gitUrl: https://github.webmethods.io/kvv
   gitUsername: kvv
   gitBranch: main
-- name: PackY
-  version: "1.0"
-  gitServerName: siqagituser
-  gitUrl: https://github.com/prabhakarsag
-  gitUsername: siqagituser
-  gitBranch: main
 services:
 - serviceName: project.siqa_devops.integrations:TESTflow
   packages:
